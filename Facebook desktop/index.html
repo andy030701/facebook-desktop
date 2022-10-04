@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/633cd746e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Conteneur principal-->
+  <div class="main-container">
+
+    <h2>facebook</h2>
+    <h4>Connexions récentes</h4>
+    <p style="font-size: 15px; color: #606770">
+      Cliquez sur votre image pour Ajouter un compte
+    </p>
+
+    <!--LES Cartes-->
+    <div id="pictures-form-container">
+
+      <ul class="picture-container">
+        <li>
+          <div class="card-picture">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <img src="./media/User1 picture.jpg" alt="user 1 picture" srcset="" width="160px" height="162px" />
+            <p>User1</p>
+          </div>
+        </li>
+        <li>
+
+          <div class="card-picture">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <img src="./media/User2 picture.jpg" alt="user 1 picture" srcset="" width="100%" height="162px" />
+            <p>User2</p>
+          </div>
+        </li>
+        <li>
+          <div id="no-picture">
+            <div id="icon-container">
+              <i class="fa-solid fa-circle-plus "></i>
+            </div>
+            <p style="padding: 0 10px 0 10px">Ajouter un compte</p>
+          </div>
+        </li>
+      </ul>
+      <div class="p-and-form-container">
+
+        <div class="form-container">
+
+          <input type="email" name="" id="email" placeholder="Adresse e-mail ou numéro de tél"style="font-family:Helvetica, sans-serif;font-weight:400;font-size:17px;color:#1d2129;padding:19px 17px;border-radius:5px;border:1px solid #DDDFE2" />
+          <input type="password" name="" id="psswd" placeholder="Mot de passe" style="font-family:Helvetica, sans-serif;font-weight:400;font-size:17px;color:#1d2129;padding:19px 17px;border-radius:5px;border:1px solid #DDDFE2"/>
+          <input type="submit" value="Se connecter" style="font-family:Helvetica, sans-serif;background-color:#1877F2;color:white;border:none;font-size:20px;font-weight:700;border-radius:5px"/>
+
+          <!--Petit trait-->
+          <div class="link-container">
+
+            <a href="">Mot de passe oublié ?</a>
+          </div>
+
+          <!--Bouton créer un nouveau compte-->
+          <button class="new-account-btn">Créer nouveau compte</button>
+        </div>
+        <p style="padding:0 26px;text-align:center">
+          <strong>Créer une Page</strong> pour une célébrité, une marque ou une
+          entreprise
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
